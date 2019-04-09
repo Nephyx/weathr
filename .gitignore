@@ -76,3 +76,6 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# Application-specific data plist
+Weathr/data.plist

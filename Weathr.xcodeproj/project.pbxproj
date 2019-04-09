@@ -12,6 +12,7 @@
 		1149808E2232CCA6003F95F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1149808C2232CCA6003F95F2 /* Main.storyboard */; };
 		114980902232CCA7003F95F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1149808F2232CCA7003F95F2 /* Assets.xcassets */; };
 		114980932232CCA7003F95F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114980912232CCA7003F95F2 /* LaunchScreen.storyboard */; };
+		11A60FC6225D27E2006DBBAF /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11A60FC5225D27E2006DBBAF /* data.plist */; };
 		8EED21BDDF1FE239F87F0195 /* Pods_Weathr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720BC96E2E6EEEE9865A7AA8 /* Pods_Weathr.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		1149808F2232CCA7003F95F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		114980922232CCA7003F95F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		114980942232CCA7003F95F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A60FC5225D27E2006DBBAF /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		720BC96E2E6EEEE9865A7AA8 /* Pods_Weathr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weathr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5978CEC76995FD3347EE0D6 /* Pods-Weathr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weathr.release.xcconfig"; path = "Target Support Files/Pods-Weathr/Pods-Weathr.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +69,7 @@
 				1149808F2232CCA7003F95F2 /* Assets.xcassets */,
 				114980912232CCA7003F95F2 /* LaunchScreen.storyboard */,
 				114980942232CCA7003F95F2 /* Info.plist */,
+				11A60FC5225D27E2006DBBAF /* data.plist */,
 			);
 			path = Weathr;
 			sourceTree = "<group>";
@@ -77,7 +80,6 @@
 				0CBD521BC2AE44B867613291 /* Pods-Weathr.debug.xcconfig */,
 				D5978CEC76995FD3347EE0D6 /* Pods-Weathr.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +153,7 @@
 			files = (
 				114980932232CCA7003F95F2 /* LaunchScreen.storyboard in Resources */,
 				114980902232CCA7003F95F2 /* Assets.xcassets in Resources */,
+				11A60FC6225D27E2006DBBAF /* data.plist in Resources */,
 				1149808E2232CCA6003F95F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
